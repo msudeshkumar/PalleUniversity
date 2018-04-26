@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Palle University"
+        android:textSize="25sp"
+        android:textColor="#E91E63"
+        android:id="@+id/textView1"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox1"
+        android:text="Java - ₹9991/-"
+        android:textSize="20sp"
+        android:textColor="#26A69A"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox2"
+        android:text="Android - ₹15991/-"
+        android:textSize="20sp"
+        android:textColor="#26A69A"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox3"
+        android:text="SQL - ₹7991"
+        android:textSize="20sp"
+        android:textColor="#26A69A"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox4"
+        android:text=".Net - ₹15991/-"
+        android:textSize="20sp"
+        android:textColor="#26A69A"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:text="Proceed"
+        android:textSize="15sp"
+        android:onClick="proceed"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
